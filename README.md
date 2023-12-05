@@ -12,7 +12,7 @@ This repository contains source code for my client [Randoms IN](https://randoms.
  - Bulma (CSS)
  
 ### Backend
- - Laravel 10
- - PHP 8.1
+ - Laravel
+ - PHP
 
 Source code available for audit only. &copy; 2020 Manpreet Rai. All rights reserved.
