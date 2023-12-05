@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "bulma-rebuild": "node-sass --include-path node_modules --omit-source-map-url resources/scss/bulma.scss resources/css/bulma.css"
+    },
+    "devDependencies": {
+        "axios": "^1.6.1",
+        "bulma": "^0.9.4",
+        "laravel-vite-plugin": "^0.8.0",
+        "node-sass": "^9.0.0",
+        "vite": "^4.0.0"
+    }
+}

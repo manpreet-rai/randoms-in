@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* Custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+
+/* Redefine variables first */
+$primary: hsl(292, 82%, 39%) !default;
+$family-serif: "Zilla Slab", serif;
+$family-sans-serif: "Karla", sans-serif;
+$family-primary: $family-sans-serif;
+$family-secondary: $family-serif;
+
+/* Import Bulma */
+@import "bulma/bulma";
+
+.navbar-item img {
+    max-height: 2.5rem;
+}
+
+::-moz-selection {
+    color: white;
+    background:  hsl(292, 82%, 39%);
+}
+
+::selection {
+    color: white;
+    background:  hsl(292, 82%, 39%);
+}
+
+.shape {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100% !important;
+}
+
+.selectDisable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
+}
+
+.feature-list:after {
+    content: "";
+    clear: both;
+}
+
+.disappear {
+    opacity: 0.0;
+    transition: opacity 300ms ease;
+}
+
+@media screen and (max-width: 767px), print {
+    .columns-ordered {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .columns-reversed {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .pricing-column {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px), print {
+    .services {
+        transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
+    }
+
+    .services:hover {
+        transform: translateY(-1rem);
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+        -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+        -moz-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+        transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
+    }
+}
