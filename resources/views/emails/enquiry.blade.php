@@ -2,8 +2,8 @@
 <body>
 <div style="background-color: #F2F2F2; color: #363636; padding: 2rem; text-align: center; font-family: Arial, Helvetica, sans-serif;">
     <div>
-        <img src="{{ env('APP_URL') }}/assets/logo.svg" alt="Logo" title="Logo" style="display:inline" width="32" height="32" style="margin-top: 32px; margin-bottom: 8px;"/>
-        <p style="font-weight: bold; color: #9E12B4;">Randoms IO - New Quotation</p>
+        <img src="https://randoms.in/assets/logo.png" alt="Logo" title="Logo" style="display:inline" width="32" height="32" style="margin-top: 32px; margin-bottom: 8px;"/>
+        <p style="font-weight: bold; color: #9E12B4;">Randoms IN - New Quotation</p>
     </div>
 
     <div style="width:90%; background-color: #FFFFFF; margin:auto; border-radius: 0.5rem; padding: 1rem; margin-top: 32px;">
